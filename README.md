@@ -53,5 +53,21 @@ Bilgisayarınızda bir **Terminal** (macOS/Linux) veya **Git Bash** / **Komut İ
 
 Açtığınız komut satırı penceresine aşağıdaki komutu aynen yapıştırın ve **Enter** tuşuna basın:
 
-```bash
+```bash 
 gh repo clone sudemkirmiz/imdb_projesi
+```
+Ardından proje klasörüne gidin
+```bash 
+cd imdb_projesi
+```
+
+Bu projede kullanılan tüm Python kütüphaneleri requirements.txt dosyasında listelenmiştir. Aşağıdaki komutla hepsini tek tıkla kurabilirsiniz.
+```bash
+pip install -r requiremints.txt
+```
+Projenin tüm analiz adımları aşağıdaki Jupyter Notebook dosyasında bulunmaktadır
+```bash
+jupyter notebook imdb_analysis.ipynb
+```
+
+
