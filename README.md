@@ -32,3 +32,26 @@ Analiz sırasında veri temizliği, Keşifsel Veri Analizi (EDA) ve görselleşt
 | `runtime_vs_rating.png` | Film süresi gruplarına göre ortalama puanı gösteren görsel. |
 | `top_10_genres.png` | En popüler 10 film türünün dağılımını gösteren görsel. |
 | `movies_initial.csv` | Analiz için kullanılan ham veri seti. |
+
+## Projeyi Yerel Bilgisayarınıza Kopyalama (Clone)
+
+Bu adımlar, projemizi kullanmaya başlamanız için gerekli olan tüm dosyaları bilgisayarınıza indirmenizi sağlar.
+
+### Gereksinimler
+
+Projemizi kopyalamak ve çalıştırmak için bilgisayarınızda **Git** programının kurulu olması gerekmektedir.
+
+### Adım Adım Kopyalama (Cloning)
+
+Projeyi bilgisayarınıza indirmek sadece tek bir komut gerektirir.
+
+#### Adım 1: Komut Satırını Açın
+
+Bilgisayarınızda bir **Terminal** (macOS/Linux) veya **Git Bash** / **Komut İstemi (CMD)** (Windows) uygulamasını açın.
+
+#### Adım 2: Kopyalama Komutunu Çalıştırın
+
+Açtığınız komut satırı penceresine aşağıdaki komutu aynen yapıştırın ve **Enter** tuşuna basın:
+
+```bash
+gh repo clone sudemkirmiz/imdb_projesi
